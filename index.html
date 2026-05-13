@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <div class="container"> 
+    <h1>Temperatūras ieraksti</h1>
+     </div class="card">
+      <form>
+     <div class="field">
+        <label>Datums:</label>
+         <input type="date" />
+     </div>
+        <div class="field">
+            <label>Mazākā temperatūra</label>
+            <input type="number" step="0.1" />
+        </div>
+        <div class="field"> 
+         <label>Lielā temperatūra</label>
+         <input type="number" step="0.1"  />
+        </div>
+        <button type="submit">Pievienot</button>
+
+      </form>
+      <div class="helper">
+          Ievadi dienas minimālo un maksimālo dienas.
+        </div>
+    </div>
+    <h2>Temperatūru saraksts</h2>
+  </div class="card">
+     <div class="table-wrap">
+        <table aria-label="Temperatūras saraksts">
+            <thead>
+                <tr>
+                  <th>Datums</th>
+                  <th>Mazākā temperatūra</th>
+                  <th>Lielākā temperatūra</th>
+                  <th>Vidējā temperatūra</th>
+                </tr>
+            </thead>
+               <tbody>
+                  <tr>
+                  <th>2026-05-13</th>
+                  <th>-3</th>
+                  <th>-5</th>
+                  <th>-4</th>
+                </tr>
+               </tbody>
+<tbody>
+                  <tr>
+                  <th>2026-05-17</th>
+                  <th>4</th>
+                  <th>10</th>
+                  <th>7</th>
+                </tr>
+               </tbody>
+               <tbody>
+                  <tr>
+                  <th>2026-05-09</th>
+                  <th>15</th>
+                  <th>25</th>
+                  <th>20</th>
+                </tr>
+               </tbody>
+               <tbody>
+                  <tr>
+                  <th>2026-07-11</th>
+                  <th>2</th>
+                  <th>2</th>
+                  <th>2</th>
+                </tr>
+               </tbody>
+        </table>
+     </div>
+      <div class="summary">
+        Vidējā temperatūra visām dienām: 0.00
+
+      </div>
+     </div> 
+    </div>
+</body>
+</html>
